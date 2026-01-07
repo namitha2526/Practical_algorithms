@@ -175,3 +175,28 @@ O(n)
 But probability of that happening = practically zero.
 
 So you get balanced-tree performance without the pain.
+
+#### Edge cases:
+
+Duplicate keys — decide policy
+
+Very skewed randomness — still rare
+
+Memory overhead — multiple pointers per node
+
+Deterministic mode → replace randomness with fixed levels
+
+#### Where it’s actually used:
+
+Redis Sorted Sets (ZSET)
+
+Concurrent maps (Java’s ConcurrentSkipListMap)
+
+In-memory databases
+
+Key-value index structures
+
+Because:
+✔ simpler than trees
+✔ fast enough
+✔ concurrency-friendly
