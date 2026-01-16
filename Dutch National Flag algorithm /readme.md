@@ -52,3 +52,37 @@
   ## Example
 
   ### Input
+  [2, 0, 2, 1, 1, 0]
+  ### Output
+  [0, 0, 1, 1, 2, 2]
+
+### Edge cases
+
+Empty array
+
+Already sorted input
+
+All elements same
+
+Only two categories present
+
+Large arrays where in-place efficiency matters
+
+### Complexity
+Metric	Value
+Time	O(n)
+Space	O(1)
+
+Single pass. No extra memory.
+
+### Where it’s actually used
+
+3-way QuickSort partitioning
+
+Priority classification systems
+
+Sorting categorical flags
+
+Memory partitioning
+
+Real-time data bucketing
