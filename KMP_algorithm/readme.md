@@ -107,12 +107,12 @@ def kmp_search(text, pattern):
 ```
 ### Example
 kmp_search("ABABDABACDABABCABAB", "ABABCABAB")
-# returns 10
+returns 10
 
 
 Pattern starts at index 10.
 
-Edge cases:
+### Edge cases:
 
 Empty pattern → match at index 0
 
